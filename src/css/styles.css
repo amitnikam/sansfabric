@@ -1,0 +1,100 @@
+body {
+    background-color:#e1e1e1;
+    background-image: url("fabric.jpg");
+    background-size: cover;
+    /* background-color: #e1e1e1; */
+}
+
+.container {
+    margin: 2rem auto;
+    padding: 0;
+    max-width: 1080px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 1080px) {
+    body {
+        background-color: #e1e1e1;
+    }
+    .container {
+        margin: auto;
+        padding: 0;
+        background-color: white;
+    }
+}
+
+.homepagefont {
+    margin: 1rem;
+    font-size: x-large;
+}
+
+.infopad {
+    padding: 2rem;
+}
+
+a {
+    text-decoration: inherit;
+    /* no underline */
+}
+
+.footer {
+    background-color: #e1e1e1;
+    padding-top: 1rem;
+    padding-bottom: 5px;
+    margin-top: 2rem;
+    text-align: center;
+    color: #555555;
+}
+
+.contact a {
+    color: inherit;
+}
+.contact a:hover {
+    color: rgb(13, 117, 235);
+}
+
+.somelinks {
+    color: #0060B6;
+    text-decoration: none;
+}
+.somelinks:hover {
+    color: #00A0C6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul ul li{
+    font-size: medium;
+}
+
+ul li {
+    font-size: large;
+    padding-top: 5px;
+}
+
+.brandname{
+    font-size: xx-large;
+    vertical-align: bottom;
+}
+
+.headitems {
+    font-size: larger;
+}
+
+.roundedborder{
+    border: solid 1px #e1e1e1;
+    border-radius: 3em;
+    margin:30px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    .roundedborder{
+        border: solid 1px #e1e1e1;
+        border-radius: 3em;
+        margin:10px;
+        text-align: center;
+    }
+}
